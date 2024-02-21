@@ -17,6 +17,7 @@ function App() {
           <Route path="/work-experience" component={WorkExperience} />
           <Route path="/projects" component={Projects} />
         </Routes>
+        <Home />
         <Footer />
       </div>
     </Router>

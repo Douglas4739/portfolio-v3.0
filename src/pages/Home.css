@@ -1,0 +1,14 @@
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+
+.landingMessage {
+    border: 2px solid blue;
+}
+
+.heroImage {
+    border: 2px solid green;
+}
