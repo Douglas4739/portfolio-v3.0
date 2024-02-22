@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav } from '../components/Navbar';
 import './Home.css';
 import nd1 from '../images/nd1.jpg';
+import HeroCarousel from '../components/HeroCarousel';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <div class='heroImage'>
         <img src={nd1} alt='Auto Yard with Mountains in the background' style={{ width: '90%', height: 'auto' }} />
     </div>
+    {/* <HeroCarousel /> */}
     </div>
     </>
   )
