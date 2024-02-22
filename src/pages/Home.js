@@ -14,7 +14,7 @@ export default function Home() {
       skilled in 6 Sigma and web design</h1>
     </div>
     <div class='heroImage'>
-        <img src={nd1} alt='Auto Yard with Mountains in the background' style={{ width: '80%', height: 'auto' }} />
+        <img src={nd1} alt='Auto Yard with Mountains in the background' style={{ width: '90%', height: 'auto' }} />
     </div>
     </div>
     </>

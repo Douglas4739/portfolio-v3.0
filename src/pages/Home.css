@@ -9,6 +9,9 @@
 
 .landingMessage {
     border: 2px solid blue;
+    margin-left: 10%;
+    justify-content: right;
+    font-size: 2em;
 }
 
 .heroImage {
@@ -16,3 +19,47 @@
     display: flex;
     justify-content: right;
 }
+
+@media screen and (max-width: 1613px) {
+    .landingMessage {
+      font-size: 1.75em;
+    }
+  }
+
+  @media screen and (max-width: 1545px) {
+    .landingMessage {
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 1478px) {
+    .landingMessage {
+      font-size: 1.25em;
+    }
+  }
+
+  @media screen and (max-width: 1412px) {
+    .landingMessage {
+      font-size: 1em;
+    }
+  }
+
+  /* @media screen and (max-width: 1343px) {
+    .landingMessage {
+      font-size: .75em;
+    }
+  } */
+
+  @media screen and (max-width: 875px) {
+    .landing {
+      flex-direction: column;
+    }
+    .landingMessage{
+        margin: 5%;
+    }
+    .heroImage{
+        justify-content: center;
+        width: 100%;
+    }
+
+  }
