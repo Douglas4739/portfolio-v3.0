@@ -9,15 +9,18 @@
 
 .landingMessage {
     border: 2px solid blue;
-    margin-left: 10%;
-    justify-content: right;
-    font-size: 2em;
+    /* margin-left: 10%; */
+    /* justify-content: right; */
+    font-size: 3em;
 }
 
 .heroImage {
     border: 2px solid green;
     display: flex;
+    flex-direction: column;
     justify-content: right;
+    position: absolute;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1613px) {

@@ -14,8 +14,10 @@ export default function Home() {
       Data-driven production manager 
       skilled in 6 Sigma and web design</h1>
     </div>
+
     <div class='heroImage'>
-        <img src={nd1} alt='Auto Yard with Mountains in the background' style={{ width: '90%', height: 'auto' }} />
+        <h1 class='heroStatement'>See This Project</h1>
+        <img src={nd1} alt='Auto Yard with Mountains in the background' style={{ width: '100%', height: 'auto' }} />
     </div>
     {/* <HeroCarousel /> */}
     </div>
