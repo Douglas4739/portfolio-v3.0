@@ -8,7 +8,7 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <Router>
+    <Router >
       <div className="App">
         <Navbar />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/projects" component={Projects} />
         </Routes>
         <Home />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

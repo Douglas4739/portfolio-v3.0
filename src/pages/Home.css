@@ -9,7 +9,7 @@
 
 .landingMessage {
     border: 2px solid blue;
-    /* margin-left: 10%; */
+    margin-left: 2.5%;
     /* justify-content: right; */
     font-size: 3em;
 }
@@ -21,6 +21,15 @@
     justify-content: right;
     position: absolute;
     z-index: -1;
+    /* -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black, transparent); */
+}
+
+.heroStatement {
+    border: 2px solid black;
+    font-size: 6.5em;
+    
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 1613px) {
