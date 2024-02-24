@@ -11,7 +11,7 @@
     border: 2px solid blue;
     margin-left: 2.5%;
     /* justify-content: right; */
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 .heroImage {
@@ -27,8 +27,8 @@
 
 .heroStatement {
     border: 2px solid black;
-    font-size: 6.5em;
-    
+    /* font-size: 5.5vh; */
+    font-size: ;
     align-items: flex-end;
 }
 

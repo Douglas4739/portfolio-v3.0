@@ -14,7 +14,7 @@ export default function Home() {
           <div class="project">
             <h3>Project Name</h3>
             <p>Description of the project</p>
-          </div>
+          </div>          
         </div>
 
         <div class="heroImage">
