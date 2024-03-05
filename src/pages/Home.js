@@ -25,13 +25,12 @@ export default function Home() {
             style={{ width: "100%", height: "100%" }}
           />
         </div>
-        <div>
-          <h1 class="heroStatement">See This Project</h1>
-        </div>
 
         {/* <HeroCarousel /> */}
       </div>
-      <Nav />
+      <div>
+          <h1 class="heroStatement">See This Project</h1>
+        </div>
     </>
   );
 }

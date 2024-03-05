@@ -12,6 +12,7 @@ const Nav = styled.nav`
   position: fixed;
   bottom: 0;
   color: white;
+  max-height: 70px;
 `;
 
 const Logo = styled(Link)`

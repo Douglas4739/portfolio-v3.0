@@ -32,11 +32,12 @@
     border: 2px solid black;
     font-size: 5vh;
     color: aliceblue;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    /* align-items: flex-end; */
+    /* color: orangered; */
+    position: relative;
+    margin-top: 18.5%;
+    margin-left: 2.5%;
 }
+
 
 @media screen and (max-width: 1613px) {
     .landingMessage {
