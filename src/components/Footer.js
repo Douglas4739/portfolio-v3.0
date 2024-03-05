@@ -6,9 +6,12 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 0 50px;
-  background-color: #fff;
+  padding: 0 1000px;
+  background-color: rgb(47, 47, 47);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  color: white;
 `;
 
 const Logo = styled(Link)`

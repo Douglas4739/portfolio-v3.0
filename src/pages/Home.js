@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "../components/Navbar";
+import  Nav from "../components/Navbar";
 import "./Home.css";
 import nd1 from "../images/nd1.jpg";
 import HeroCarousel from "../components/HeroCarousel";
@@ -31,6 +31,7 @@ export default function Home() {
 
         {/* <HeroCarousel /> */}
       </div>
+      <Nav />
     </>
   );
 }
