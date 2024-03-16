@@ -15,6 +15,7 @@
     margin-left: 2.5%;
     /* justify-content: right; */
     font-size: 1.5em;
+    z-index: 2;
 }
 
 .heroImage {
@@ -23,7 +24,7 @@
     flex-direction: column;
     justify-content: right;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     /* -webkit-mask-image: linear-gradient(black, transparent);
     mask-image: linear-gradient(black, transparent); */
 }
@@ -37,6 +38,7 @@
     margin-top: 22.5%;
     margin-left: 2.5%;
     text-shadow: 3px whitesmoke;
+    z-index: 2;
 }
 
 
