@@ -29,7 +29,10 @@ export default function Home() {
         {/* <HeroCarousel /> */}
       </div>
       <div>
-          <h1 class="heroStatement">See This Project</h1>
+        <div class="darkContainer">
+        <h1 class="heroStatement">See This Project</h1>
+        </div>
+        
         </div>
     </>
   );

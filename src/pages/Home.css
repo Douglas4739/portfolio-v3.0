@@ -15,7 +15,7 @@
     margin-left: 2.5%;
     /* justify-content: right; */
     font-size: 1.5em;
-    z-index: 2;
+    z-index: 3;
 }
 
 .heroImage {
@@ -38,9 +38,15 @@
     margin-top: 22.5%;
     margin-left: 2.5%;
     text-shadow: 3px whitesmoke;
-    z-index: 2;
+    z-index: 3;
 }
 
+.darkContainer {
+  position: relative;
+  background-color: black;
+  width: max-content;
+  z-index: 2;
+}
 
 @media screen and (max-width: 1613px) {
     .landingMessage {
